@@ -13,29 +13,25 @@ public class Libro {
         return titulo;
     }
 
-    public void isPrestado() {
-        if (prestado) {
-            System.out.println("El libro esta prestado");
-        } else {
-            System.out.println("El libro no esta prestado");
-        }
+    public boolean isPrestado() {
+        return prestado;
     }
 
-    public void prestarLibro(String titulo) {
-        if (prestado) {
-            System.out.println("Lo siento el libro esta prestado");
-        } else {
+    public void prestarLibro() {
+        if (!prestado) {
             this.prestado = true;
             System.out.println("Libro prestado con exito");
+        } else {
+            System.out.println("Lo siento el libro esta prestado");
         }
     }
 
     public void devolverLibro(String titulo) {
-        if (!prestado) {
-            System.out.println("No puedes devolver un libro que no ha sido prestado");
-        } else {
-            System.out.println("Has devuelto el libro");
+        if (prestado) {
             this.prestado = false;
+            System.out.println("Has devuelto el libro");
+        } else {
+            System.out.println("No puedes devolver un libro que no ha sido prestado");
         }
     }
 }
