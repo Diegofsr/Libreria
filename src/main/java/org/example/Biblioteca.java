@@ -19,7 +19,7 @@ public class Biblioteca {
         if (cantidadLibros < estanteria.length) {
             estanteria[cantidadLibros] = nuevoLibro;
             cantidadLibros++;
-            System.out.println("Libro colocado en la estantería. Cantidad de libros " + cantidadLibros);
+            System.out.println("Libro puesto en la estantería. Cantidad de libros " + cantidadLibros);
         } else {
             System.out.println("No caben más libros, estantería llena.");
         }
