@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5d42b58-9656-437d-8648-cee0565b267f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/BibliotecaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/LibroTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Biblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Biblioteca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Libro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BibliotecaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BibliotecaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/LibroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/LibroTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +52,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "JUnit.BibliotecaTest.testAgregarUnLibroSumaAlContador.executor": "Run",
+    "JUnit.LibroTest.executor": "Run",
+    "JUnit.LibroTest.testDevolverLibroCambiaEstado.executor": "Run",
+    "JUnit.LibroTest.testLibroSeCreaNoPrestado.executor": "Run",
+    "JUnit.LibroTest.testPrestarLibroCambiaEstado.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -69,6 +75,96 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.example" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BibliotecaTest.testAgregarUnLibroSumaAlContador">
+    <configuration name="BibliotecaTest.testAgregarUnLibroSumaAlContador" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Libreria" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.BibliotecaTest" />
+      <option name="METHOD_NAME" value="testAgregarUnLibroSumaAlContador" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Libreria" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.LibroTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibroTest.testDevolverLibroCambiaEstado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Libreria" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.LibroTest" />
+      <option name="METHOD_NAME" value="testDevolverLibroCambiaEstado" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibroTest.testLibroSeCreaNoPrestado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Libreria" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.LibroTest" />
+      <option name="METHOD_NAME" value="testLibroSeCreaNoPrestado" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibroTest.testPrestarLibroCambiaEstado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Libreria" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.LibroTest" />
+      <option name="METHOD_NAME" value="testPrestarLibroCambiaEstado" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BibliotecaTest.testAgregarUnLibroSumaAlContador" />
+        <item itemvalue="JUnit.LibroTest.testDevolverLibroCambiaEstado" />
+        <item itemvalue="JUnit.LibroTest.testPrestarLibroCambiaEstado" />
+        <item itemvalue="JUnit.LibroTest.testLibroSeCreaNoPrestado" />
+        <item itemvalue="JUnit.LibroTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

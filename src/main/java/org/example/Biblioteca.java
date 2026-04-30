@@ -11,6 +11,10 @@ public class Biblioteca {
         this.cantidadLibros = 0;
     }
 
+    public int getCantidadLibros() {
+        return cantidadLibros;
+    }
+
     public void agregarLibro(Libro nuevoLibro) {
         if (cantidadLibros < estanteria.length) {
             estanteria[cantidadLibros] = nuevoLibro;

@@ -26,7 +26,7 @@ public class Libro {
         }
     }
 
-    public void devolverLibro(String titulo) {
+    public void devolverLibro() {
         if (prestado) {
             this.prestado = false;
             System.out.println("Has devuelto el libro");
